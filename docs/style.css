@@ -14,7 +14,7 @@ body {
     text-align: right;
     vertical-align: text-top;
     line-height: 20px;
-    max-width: 100px;
+    max-width: 215px;
     overflow-wrap: break-word;
     word-wrap: break-word;
     position: absolute;
@@ -26,7 +26,10 @@ body {
     color: white;
     text-align: right;
     line-height: 35px;
-    position:sticky;
+    position: fixed-right;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    max-width: 215px;
   }
 
   .btn {
@@ -34,6 +37,7 @@ body {
     text-align: center;
     align-items: center;
     width: 50px;
+    position: sticky;
   }
   
   .btn:hover {
@@ -47,20 +51,17 @@ body {
     width: 100px;
   }
 
-  #add {
-    height: 100px;
-  }
+#add {
+    height: 88px;
+    margin-top: -44px;
+}
 
-  #equals {
-    position: 'static';
-    height: 100px;
+ #equals {
+    position: 'relative';
+    height: 88px;
+    margin-top: -44px;
   }
 
   #footer {
     color: white;
   }
-/* 
-1. remove spaces between + and =, vertical buttons?
-2. large forumlas wrap incorrectly, eventually covering the calculator - move other elements when wrapping?
-3. large numbers should not move the buttons when displaying on the screen
-*/
