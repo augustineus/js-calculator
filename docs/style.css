@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .formulaScreen {
+    min-height: 20px;
+    font-size: 20px;
+    color: white;
+    text-align: right;
+    vertical-align: text-top;
+    line-height: 20px;
+    max-width: 100px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    position: absolute;
+    padding-bottom: 50px;
+  }
+  
+  .outputScreen {
+    font-size: 40px;
+    color: white;
+    text-align: right;
+    line-height: 35px;
+    position:sticky;
+  }
+
+  .btn {
+    font-size: 50px;
+    text-align: center;
+    align-items: center;
+    width: 50px;
+  }
+  
+  .btn:hover {
+    background-color: black;
+    color: white;
+    border-radius: 1px;
+    border-color: white;
+  }
+
+  #zero {
+    width: 100px;
+  }
+
+  #add {
+    height: 100px;
+  }
+
+  #equals {
+    position: 'static';
+    height: 100px;
+  }
+
+  #footer {
+    color: white;
+  }
+/* 
+1. remove spaces between + and =, vertical buttons?
+2. large forumlas wrap incorrectly, eventually covering the calculator - move other elements when wrapping?
+3. large numbers should not move the buttons when displaying on the screen
+*/
